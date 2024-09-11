@@ -1,29 +1,24 @@
 [tool.poetry]
-name = "ons-python-template"
+name = "ons-python-template-keh-evisos"
 version = "0.1.0"
-description = "A Python starter template designed to jump start your next Python project"
-authors = ["ONSdigital"]
+description = "ons-python-template-keh-evisos"
+authors = ["evisos-ons"]
 license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-copier = "^9.3.1"
 
 [tool.poetry.group.dev.dependencies]
 # :TODO: Remove pylint when ruff supports all pylint rules
-pylint = "^3.2.7"
 # :TODO: Remove black when ruff supports all black rules
-black = "^24.8.0"
-pytest = "^8.3.2"
-pytest-xdist = "^3.6.1"
-ruff = "^0.6.3"
+pylint = "^3.1.0"
+black = "^24.4.1"
+pytest = "^8.1.1"
+pytest-xdist = "^3.5.0"
+ruff = "^0.4.2"
 pytest-cov = "^5.0.0"
-mypy = "^1.11.2"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+mypy = "^1.10.0"
 
 [tool.black]
 line-length = 120

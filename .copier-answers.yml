@@ -1,0 +1,13 @@
+# Changes here will be overwritten by Copier
+# Do not modify this file directly
+# To update the project using the original template, run make copier-update
+_src_path: /home/runner/work/ons-python-template-keh-evisos/ons-python-template-keh-evisos
+default_branch: main
+dependabot_open_pull_requests_limit: 10
+enable_dependabot_version_updates: true
+module_name: ons_python_template_keh_evisos
+package_manager: poetry
+repository_description: ons-python-template-keh-evisos
+repository_name: ons-python-template-keh-evisos
+repository_owner: evisos-ons
+repository_visibility: public
