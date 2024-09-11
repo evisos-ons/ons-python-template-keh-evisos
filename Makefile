@@ -51,4 +51,4 @@ megalint:  ## Run the mega-linter.
 
 .PHONY: run
 run:
-	poetry run python -m ons_python_template_keh_evisos
+	poetry run python -m runit
