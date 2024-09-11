@@ -51,4 +51,4 @@ megalint:  ## Run the mega-linter.
 
 .PHONY: run
 run:
-	poetry run python -m runit
+	poetry run python -m main
